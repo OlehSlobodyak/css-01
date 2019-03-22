@@ -1,0 +1,38 @@
+:root {
+    font-size: 20px;
+}
+
+h1 {
+    color:red;
+    font-size: 2.5rem;
+}
+
+p {
+    color: green;
+    font-weight: bold;
+    border: 1px solid yellow;
+}
+
+#chosen{
+    background-color: brown;
+}
+
+.new{
+    background-color: grey;
+}
+
+.some {
+    text-decoration: underline;
+}
+
+div > p {
+    text-transform: uppercase;
+}
+
+p:hover {
+    transform: rotate(180deg);
+}
+
+p::first-letter{
+    font-size: 3rem;
+}
